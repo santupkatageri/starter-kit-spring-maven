@@ -789,6 +789,8 @@
                 </configuration>
                 <executions>
                     <execution>
+                             <id>npm install</id>
+                             <phase>process-sources</phase>
                         <goals>
                             <goal>create-resources</goal>
                             <goal>npm</goal>
